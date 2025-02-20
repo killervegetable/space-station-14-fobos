@@ -157,7 +157,7 @@
         Caustic: 0.3
         Stun: 0.7
   - type: ExplosionResistance
-    damageCoefficient: 0.8
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
