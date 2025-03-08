@@ -9,6 +9,38 @@
   sponsorOnly: true
   whitelistJobs: [ChiefMedicalOfficer, MedicalDoctor, Chemist]
 
+
+# Backpack
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpacknikitafuji1515
+  name: специализированная медицинская сумка
+  description: Рюкзак использующий технологию блюспейса для увелечения своего максимального объёма. Принадлежат члену экипажа, находящемуся под покровительством спонсорской организации.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/holding.rsi
+    state: holding
+    layers:
+    - state: holding
+    - state: holding-unlit
+      shader: unshaded
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,13,5
+  - type: StorageFill
+    contents:
+      - id: ClothingHandsGlovesnikitafuji1515
+      - id: ClothingHeadsetnikitafuji1515
+      - id: Hypospraynikitafuji1515
+      - id: JetpackVoidFilleddnikitafuji1515
+      - id: ClothingBeltnikitafuji1515
+      - id: ClothingUniformJumpskirtnikitafuji1515
+      - id: ClothingEyesHudnikitafuji1515
+      - id: ClothingOuterHardsuitnikitafuji1515
+
+
 # Ears
 
 - type: entity
