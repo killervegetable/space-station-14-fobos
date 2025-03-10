@@ -265,7 +265,6 @@
       sprite: _DeadSpace/Sponsor/nikitafuji1515/scirt.rsi
 
 # HardSuit
-
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseEngineeringContraband]
   id: ClothingOuterHardsuitnikitafuji1515
@@ -301,6 +300,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitnikitafuji1515
+  - type: Item
+    size: Huge
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
